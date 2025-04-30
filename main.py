@@ -64,7 +64,7 @@ class StopReplay(discord.ui.View):
             await interaction.response.send_message(
                 embed=discord.Embed(
                     title="Download Replay",
-                    description=f"[Click here to download your replay]({response.split("]:")[-1]})",
+                    description=f"[Click here to download your replay]({response.split(']:')[-1]})",
                     color=discord.Color.green()
                 ),
                 ephemeral=True
